@@ -9,7 +9,6 @@ from fastapi import FastAPI
 =======
 
 
-
 # Load environment variables
 load_dotenv(override=True)
 
