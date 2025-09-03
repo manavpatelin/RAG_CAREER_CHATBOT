@@ -9,7 +9,6 @@ import gradio as gr
 from fastapi import FastAPI
 =======
 
->>>>>>> 463c09b40406f0192fd097d3c665df3fbffa1295
 
 # Load environment variables
 load_dotenv(override=True)
@@ -167,7 +166,6 @@ If the user is engaging in discussion, try to steer them towards getting in touc
                 done = True
         return response.choices[0].message.content
 
-<<<<<<< HEAD
 
 # -----------------------------
 # FastAPI + Gradio App
