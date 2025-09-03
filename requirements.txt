@@ -3,5 +3,5 @@ openai>=1.0.0
 python-dotenv>=1.0.0
 requests>=2.31.0
 pypdf>=3.17.0
-uvicorn>=20.1.0
+guvicorn>=20.1.0
 
