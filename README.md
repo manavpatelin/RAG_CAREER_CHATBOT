@@ -40,6 +40,3 @@ An AI-powered chatbot that acts as a virtual representative for Manav Patel, ans
    export OPENAI_API_KEY=your_openai_key
    ```
 3. **Add Your Resume:**
-
-Place your PDF resume as resume.pdf in the project directory
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
