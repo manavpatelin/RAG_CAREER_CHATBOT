@@ -5,7 +5,7 @@ import os
 import requests
 from pypdf import PdfReader
 import gradio as gr
-import uvicorn
+import guvicorn
 
 
 load_dotenv(override=True)
@@ -145,5 +145,5 @@ if __name__ == "__main__":
     demo = gr.ChatInterface(me.chat, type="messages")
     app = FastAPI()
     gradio_app = gr.mount_gradio_app(app, demo, path="/")
-    uvicorn.run(app, host="0.0.0.0", port=7860)
+    guvicorn.run(app, host="0.0.0.0", port=7860)
     
