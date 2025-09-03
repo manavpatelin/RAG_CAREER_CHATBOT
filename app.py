@@ -6,7 +6,7 @@ from openai import OpenAI
 from pypdf import PdfReader
 import gradio as gr
 from fastapi import FastAPI
-=======
+
 
 
 # Load environment variables
