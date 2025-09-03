@@ -140,10 +140,6 @@ If the user is engaging in discussion, try to steer them towards getting in touc
     
 
 if __name__ == "__main__":
-    if __name__ == "__main__":
     me = Me()
-    demo = gr.ChatInterface(me.chat, type="messages")
-    app = FastAPI()
-    gradio_app = gr.mount_gradio_app(app, demo, path="/")
-    guvicorn.run(app, host="0.0.0.0", port=7860)
+    gr.ChatInterface(me.chat, type="messages").launch()
     

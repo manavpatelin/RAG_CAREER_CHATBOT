@@ -3,5 +3,5 @@ openai
 python-dotenv
 requests
 pypdf
-guvicorn
+gunicorn
 
