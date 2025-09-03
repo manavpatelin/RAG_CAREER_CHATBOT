@@ -1,7 +1,8 @@
-gradio
 openai
 python-dotenv
 requests
 pypdf
+gradio
+fastapi
+uvicorn
 gunicorn
-
