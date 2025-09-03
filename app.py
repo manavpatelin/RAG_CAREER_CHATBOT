@@ -177,9 +177,5 @@ gr_app = gr.ChatInterface(me.chat, type="messages")
 
 app = FastAPI()
 app = gr.mount_gradio_app(app, gr_app, path="/")
-=======
-if __name__ == "__main__":
-    me = Me()
-    gr.ChatInterface(me.chat, type="messages").launch()
-    
->>>>>>> 463c09b40406f0192fd097d3c665df3fbffa1295
+
+
